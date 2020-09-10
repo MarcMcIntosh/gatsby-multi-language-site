@@ -9,7 +9,7 @@ const TopMenu = ({ topMenu, activeDocMeta }) => {
   const renderedMenuLinks = topMenu.menu_links
     ? topMenu.menu_links.map((menuLink, index) => (
       <li key={`top-nav-${index}`}>
-        <Link id={menuLink.link.id} to={menuLink.link.url}>
+        <Link to={menuLink.link.url}>
           {RichText.asText(menuLink.label.raw)}
         </Link>
       </li>

@@ -7,7 +7,6 @@ process.env.PRISMIC_REPO_NAME = process.env.PRISMIC_REPO_NAME || prismicRepo
 process.env.PRISMIC_PREVIEW_PATH = process.env.PRISMIC_PREVIEW_PATH || previewPath || ''
 
 
-
 const apiKey = process.env.PRISMIC_API_KEY || accessToken
 
 const homepageSchema = require('./custom_types/homepage.json')

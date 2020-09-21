@@ -16,7 +16,7 @@ module.exports = {
   releaseID: 'X1jznxEAABsAxWPY',
 
   // access token to access the release
-  accessToken: "",
+  accessToken: "MC5YMWozYVJFQUFLa0F4WFNF.RwHvv73vv71377-9aiHvv73vv73vv73vv71tW--_vVAHAmfvv73vv73vv73vv73vv70N77-9UEx0Le-_vQY",
 
   // Language configuration in your Prismic repository: Settings / Translations & locals
   defaultLanguage: 'en-gb',
